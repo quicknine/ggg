@@ -1,0 +1,14 @@
+<include file='Common:head1'/>
+<div id="box">
+	<div id="tb" style="padding:5px;height:auto">
+		<div>
+			<span style="position:relative;top:-60px;">运单号：</span>
+			<textarea id="billnum_search" rows=5 name="billnum_search" class="textarea easyui-validatebox" style='width:180px;'></textarea>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" style="position:relative;top:-60px;" onclick="obj.search()">查询</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" style="position:relative;top:-60px;" onclick="obj.searchTihuo()">提货任务</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
